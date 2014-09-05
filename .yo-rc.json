@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "JSON-LD and Hydra - Another Hypermedia API approach",
+    "packageVersion": "0.1.0",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "tpluscode",
+    "githubRepository": "jsonld-hydra-presentation"
+  }
+}

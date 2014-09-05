@@ -1,0 +1,7 @@
+{
+  "name": "json-ld-and-hydra-another-hypermedia-api-approach",
+  "version": "0.1.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  }
+}
