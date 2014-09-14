@@ -4,18 +4,19 @@ install:
   - 'npm install'
   - 'bower install'
   - 'npm install -g grunt-cli'
+before_script:
+  # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
+  - git submodule add -f https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1
+  - cd dist
+  - git checkout -b gh-pages
+  - cd ..
 script: grunt dist
 after_success:
-  # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
-  - git submodule add -b gh-pages https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1
   - cd dist
-  - if git checkout gh-pages; then git checkout -b gh-pages; fi
-  - git rm -r .
-  - cp -R ../dist/* .
-  - cp ../dist/.* .
-  - git add -f .
+  - git add -Af
+  - git status
   - git config --global user.email "tomasz@t-code.pl"
   - git config --global user.name "tpluscode"
   - git commit -am "pushing presentation built on travis ${TRAVIS_BUILD_NUMBER}" > /dev/null 2>&1
   # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
-  - git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation HEAD:gh-pages > /dev/null 2>&1
+  - git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages > /dev/null 2>&1
