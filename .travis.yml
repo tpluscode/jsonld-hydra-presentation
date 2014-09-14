@@ -1,6 +1,9 @@
 language: node_js
-before_script:
+install:
   - 'npm install'
   - 'bower install'
   - 'npm install -g grunt-cli'
+before_script:
+  - 'git config --global user.email "tomasz@t-code.pl"'
+  - 'git config --global user.name "tpluscode"'
 script: grunt deploy
