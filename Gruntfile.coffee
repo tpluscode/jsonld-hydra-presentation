@@ -89,7 +89,23 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:tpluscode/jsonld-hydra-presentation.git'
                     branch: 'gh-pages'
-        
+
+        cloneGithubPages:
+            shell:
+                clone:
+                    command: 'git clone -b gh-pages https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1'
+
+        pushGithubPages:
+            shell:
+                push: [
+                  'cd dist',
+                  'git add -Af',
+                  'git config --global user.email "tomasz@t-code.pl"',
+                  'git config --global user.name "tpluscode"',
+                  'git commit -am "pushing presentation built on travis ${TRAVIS_BUILD_NUMBER}"',
+                  'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages > /dev/null 2>&1',
+                ]
+
 
 
     # Load all grunt tasks.
@@ -140,8 +156,9 @@ module.exports = (grunt) ->
     
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
+            'cloneGithubPages',
             'dist'
-            'buildcontrol'
+            'pushGithubPages'
         ]
     
 
