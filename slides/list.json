@@ -2,10 +2,11 @@
     "index.md",
     [
         "hypermedia-api.md",
-        "richardson-maturity-level-4.md"
+        "hypermedia-api-2.md"
     ],
     [
         "links.md",
+        "links-hypermedia.md",
         "links-json-ld.md"
     ]
 ]
