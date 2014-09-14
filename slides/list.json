@@ -1,12 +1,11 @@
 [
     "index.md",
     [
-        "hypermedia-api.md",
-        "hypermedia-api-2.md"
+        "hypermedia/api.md",
+        "hypermedia/api-2.md"
     ],
     [
-        "links.md",
-        "links-hypermedia.md",
-        "links-json-ld.md"
+        "links/hypermedia.md",
+        "links/json-ld.md"
     ]
 ]
