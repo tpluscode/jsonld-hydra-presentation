@@ -2,4 +2,5 @@ language: node_js
 before_script:
   - 'npm install'
   - 'bower install'
+  - 'npm install -g grunt-cli'
 script: grunt deploy
