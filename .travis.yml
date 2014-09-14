@@ -1,5 +1,6 @@
 language: node_js
-secure: "Sp7OrOXIJTy6Vy01nt5UTlTkRkZNZsRzFQzqeSdT31XXfOQpXq+NcVyax8nNp572c9CyNYjWnytzfMEKj+GjB6+9iPCI1fpXqUQ0CnkAZ2fa86aLjpWpnSFwd2IQY2TM2uP35IB33rCjDeJKA83YCY9w7oR8AAq6GVmqYunsXO0="
+env:
+  secure: "Sp7OrOXIJTy6Vy01nt5UTlTkRkZNZsRzFQzqeSdT31XXfOQpXq+NcVyax8nNp572c9CyNYjWnytzfMEKj+GjB6+9iPCI1fpXqUQ0CnkAZ2fa86aLjpWpnSFwd2IQY2TM2uP35IB33rCjDeJKA83YCY9w7oR8AAq6GVmqYunsXO0="
 install:
   - 'npm install'
   - 'bower install'
