@@ -1,1 +1,11 @@
-["index.md"]
+[
+    "index.md",
+    [
+        "hypermedia-api.md",
+        "richardson-maturity-level-4.md"
+    ],
+    [
+        "links.md",
+        "links-json-ld.md"
+    ]
+]
