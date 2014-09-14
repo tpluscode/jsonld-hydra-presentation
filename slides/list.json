@@ -2,7 +2,11 @@
     "index.md",
     [
         "hypermedia/api.md",
-        "hypermedia/api-2.md"
+        "hypermedia/hypermedia-quotes.md",
+        "hypermedia/hypermedia-quotes2.md",
+        "hypermedia/api-2.md",
+        "hypermedia/hateoas.md",
+        "hypermedia/hateoas2.md"
     ],
     [
         "links/hypermedia.md",
