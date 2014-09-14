@@ -108,12 +108,12 @@ module.exports = (grunt) ->
                       'git config --global user.email "tomasz@t-code.pl"',
                       'git config --global user.name "tpluscode"',
                       'git commit -am "pushing presentation built on travis (build number ${TRAVIS_BUILD_NUMBER})"',
-                      'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages',
+                      'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages  > /dev/null 2>&1',
                     ].join('&&')
 
 
     # Load all grunt tasks.
-    require('load-grunt-tasks')(grunt)
+    require('load-grunt-tasks')(grunt) 
 
     grunt.registerTask 'buildIndex',
         'Build index.html from templates/_index.html and slides/list.json.',
