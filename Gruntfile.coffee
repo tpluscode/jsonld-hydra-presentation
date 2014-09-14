@@ -97,7 +97,7 @@ module.exports = (grunt) ->
                       'cd dist',
                       'git checkout -b gh-pages --quiet',
                       'git checkout gh-pages',
-                      'rm -rf **',
+                      'rm -rf !(.git)',
                       'cd ..'
                     ].join('&&')
 
