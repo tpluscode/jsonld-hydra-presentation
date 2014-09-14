@@ -91,24 +91,16 @@ module.exports = (grunt) ->
                     branch: 'gh-pages'
 
         shell:
-            cloneGithubPages:
-                command: [
-                      'git clone https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1',
-                      'cd dist',
-                      'git checkout -b gh-pages --quiet',
-                      'git checkout gh-pages',
-                      'find . ! -iname .git -exec rm -rf {} \;',
-                      'cd ..'
-                    ].join('&&')
-
             pushGithubPages:
                 command: [
                       'cd dist',
+                      'git init',
+                      'git checkout -b gh-pages',
                       'git add -Af',
                       'git config --global user.email "tomasz@t-code.pl"',
                       'git config --global user.name "tpluscode"',
                       'git commit -am "pushing presentation built on travis (build number ${TRAVIS_BUILD_NUMBER})"',
-                      'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages  > /dev/null 2>&1',
+                      'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages -f  > /dev/null 2>&1',
                     ].join('&&')
 
 
@@ -160,7 +152,6 @@ module.exports = (grunt) ->
     
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
-            'shell:cloneGithubPages',
             'dist'
             'shell:pushGithubPages'
         ]
