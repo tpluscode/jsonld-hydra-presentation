@@ -90,22 +90,26 @@ module.exports = (grunt) ->
                     remote: 'git@github.com:tpluscode/jsonld-hydra-presentation.git'
                     branch: 'gh-pages'
 
-        cloneGithubPages:
-            shell:
-                clone:
-                    command: 'git clone -b gh-pages https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1'
+        shell:
+            cloneGithubPages:
+                command: [
+                      'git clone https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation dist > /dev/null 2>&1',
+                      'cd dist',
+                      'git checkout -b gh-pages --quiet',
+                      'git checkout gh-pages',
+                      'rm -rf **',
+                      'cd ..'
+                    ].join('&&')
 
-        pushGithubPages:
-            shell:
-                push: [
-                  'cd dist',
-                  'git add -Af',
-                  'git config --global user.email "tomasz@t-code.pl"',
-                  'git config --global user.name "tpluscode"',
-                  'git commit -am "pushing presentation built on travis ${TRAVIS_BUILD_NUMBER}"',
-                  'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages > /dev/null 2>&1',
-                ]
-
+            pushGithubPages:
+                command: [
+                      'cd dist',
+                      'git add -Af',
+                      'git config --global user.email "tomasz@t-code.pl"',
+                      'git config --global user.name "tpluscode"',
+                      'git commit -am "pushing presentation built on travis ${TRAVIS_BUILD_NUMBER}"',
+                      'git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages --dry-run > /dev/null 2>&1',
+                    ].join('&&')
 
 
     # Load all grunt tasks.
@@ -156,9 +160,9 @@ module.exports = (grunt) ->
     
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
-            'cloneGithubPages',
+            'shell:cloneGithubPages',
             'dist'
-            'pushGithubPages'
+            'shell:pushGithubPages'
         ]
     
 
