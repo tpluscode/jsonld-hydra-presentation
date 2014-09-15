@@ -13,6 +13,7 @@
     ],
     [
         "links/hypermedia.md",
+        "links/formats.md",
         "links/json-ld.md"
     ]
 ]
