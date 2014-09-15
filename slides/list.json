@@ -9,6 +9,9 @@
         "hypermedia/hateoas2.md"
     ],
     [
+        "formats/formats.md"
+    ],
+    [
         "links/hypermedia.md",
         "links/json-ld.md"
     ]
