@@ -1,4 +1,8 @@
-## Hypermedia formats
+## Hypermedia "formats"
 
-* Not all are equal
-* __H Factory__ by Mike Amundsen
+* HTML
+* HAL
+* Collection+JSON
+* SIREN
+* RESTdesc
+* JSON-LD + Hydra
