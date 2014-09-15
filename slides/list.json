@@ -12,6 +12,11 @@
         "formats/formats.md"
     ],
     [
+        "more/more.md",
+        "more/hfactor.md",
+        "more/restdesc.md"
+    ],
+    [
         "links/hypermedia.md",
         "links/formats.md",
         "links/json-ld.md"
