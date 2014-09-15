@@ -1,8 +1,7 @@
 ##  Hypermedia API
 
-* REST HATEOAS constraint
 * Richardson Maturity Model level 3 - Hypermedia Controls
-* Hypermedia formats (H Factor)
+* HATEOAS (REST constraint)
 
 note:
 Level 0: Swamp of POX (Plain Old XML)
