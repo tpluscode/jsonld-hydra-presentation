@@ -9,7 +9,8 @@
         "hypermedia/hateoas2.md"
     ],
     [
-        "formats/formats.md"
+        "formats/formats.md",
+        "formats/raw-data.md"
     ],
     [
         "more/more.md",
