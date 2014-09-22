@@ -8,7 +8,8 @@ GET http://meetup.api/groups/meetjs.wroclaw/meetup/september
 {
     meetupId: 'september',
     meetupGroup: 'meetjs.wroclaw',
-    description: 'Wrześniowy meet.js'
+    description: 'Wrześniowy meet.js',
+    previous: 'august'
 }
 ```
 
