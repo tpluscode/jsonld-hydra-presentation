@@ -18,6 +18,9 @@
         "hal/embedded.md"
     ],
     [
+        "formats/collection_json.md"
+    ],
+    [
         "more/more.md",
         "more/hfactor.md",
         "more/restdesc.md"
