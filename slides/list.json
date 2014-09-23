@@ -15,6 +15,7 @@
         "formats/raw-data-3.md"
     ],
     [
+        "collection_json/title.md",
         "collection_json/root.md",
         "collection_json/template.md",
         "collection_json/queries.md"
