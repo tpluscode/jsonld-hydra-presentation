@@ -11,11 +11,11 @@
                 data: [
                     { name: 'description', value: 'Wrześniowy meet.js' }
                 ],
-                links: [ .. ]
+                links: [ ]
             }
         ],
-        template: { data: { .. } },
-        queries: [ .. ]
+        template: { data: { } },
+        queries: [ ]
     }
 }
 ```
@@ -24,7 +24,3 @@ note:
 always a collection
 
 properties in key-value pairs
-
-template is a template for adding elements only
-
-queries templated links

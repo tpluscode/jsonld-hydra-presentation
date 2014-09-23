@@ -10,7 +10,9 @@
     ],
     "formats/formats.md",
     [
-        "formats/collection_json.md"
+        "collection_json/root.md",
+        "collection_json/data.md",
+        "collection_json/template.md"
     ],
     [
         "hal/self.md",
