@@ -1,4 +1,6 @@
-## Hypertext Application Language
+## HAL
+
+### Embedded
 
 ```
 {

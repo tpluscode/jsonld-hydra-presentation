@@ -20,10 +20,17 @@
         "collection_json/queries.md"
     ],
     [
+        "hal/title.md",
         "hal/self.md",
         "hal/embedded.md"
     ],
+    [
+        "siren/title.md"
+    ],
     "formats/summary.md",
+    [
+        "json_ld/json_ld.md"
+    ],
     [
         "more/more.md",
         "more/hfactor.md",
