@@ -33,7 +33,10 @@
     ],
     "formats/summary.md",
     [
-        "json_ld/json_ld.md"
+        "json_ld/json_ld.md",
+        "json_ld/principles.md",
+        "json_ld/stars.html",
+        "json_ld/mug.md"
     ],
     [
         "more/more.md",
@@ -41,7 +44,6 @@
         "more/restdesc.md"
     ],
     [
-        "links/hypermedia.md",
         "links/formats.md",
         "links/json-ld.md"
     ]

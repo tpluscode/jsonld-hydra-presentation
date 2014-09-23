@@ -1,4 +1,4 @@
 ## JSON-LD
 
 <!-- .element: class="fragment" -->
-JSON - _what_?
+JSON - _what again_?
