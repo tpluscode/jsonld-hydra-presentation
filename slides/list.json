@@ -26,7 +26,10 @@
         "hal/embedded.md"
     ],
     [
-        "siren/title.md"
+        "siren/title.md",
+        "siren/state.md",
+        "siren/entities.md",
+        "siren/actions.md"
     ],
     "formats/summary.md",
     [
