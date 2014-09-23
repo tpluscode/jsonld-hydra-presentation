@@ -1,6 +1,6 @@
 ## H Factor
 
-by Mike Amundsen
+by [Mike Amundsen](http://amundsen.com/hypermedia/hfactor/)
 
 ![H Factor for common types](img/hfactor.png)
 
