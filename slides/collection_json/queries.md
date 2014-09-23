@@ -1,5 +1,7 @@
 ## Collection+JSON
 
+### queries
+
 ``` js
 {
     queries: [

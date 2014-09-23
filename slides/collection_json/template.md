@@ -1,5 +1,7 @@
 ## Collection+JSON
 
+### Template
+
 ``` js
 template: {
     data: [

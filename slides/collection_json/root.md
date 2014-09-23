@@ -1,5 +1,7 @@
 ## Collection+JSON
 
+### The entity (entities?)
+
 ``` js
 {
     collection: {
