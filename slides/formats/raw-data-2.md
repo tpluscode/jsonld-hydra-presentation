@@ -1,4 +1,4 @@
-## The attendees
+## Getting the attendees
 
 ```
 GET http://meetup.api/groups/meetjs.wroclaw/meetup/september/attendees

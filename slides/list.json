@@ -8,7 +8,7 @@
         "hypermedia/hateoas.md",
         "hypermedia/hateoas2.md"
     ],
-    "formats/formats.md",
+    "formats/list.md",
     [
         "formats/raw-data.md",
         "formats/raw-data-2.md",
@@ -23,6 +23,7 @@
         "hal/self.md",
         "hal/embedded.md"
     ],
+    "formats/summary.md",
     [
         "more/more.md",
         "more/hfactor.md",
