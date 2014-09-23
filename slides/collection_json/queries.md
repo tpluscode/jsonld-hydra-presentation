@@ -16,4 +16,4 @@
 ```
 
 note:
-queries are templated links (like HTTP GET <form />)
+queries are templated links - like HTTP GET <form />
