@@ -7,3 +7,4 @@
 * [Users of JSON-LD](https://github.com/json-ld/json-ld.org/wiki/Users-of-JSON-LD)
 * [Schema.org and JSON-LD](http://blog.schema.org/2013/06/schemaorg-and-json-ld.html)
 * [Schema.org adoption](https://plus.google.com/+KenichiSuzuki/posts/4EpsxVcv742)
+* [JSON-LD for RESRful services ](http://www.slideshare.net/lanthaler/jsonld-for-restful-services)
