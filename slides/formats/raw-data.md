@@ -6,6 +6,7 @@ GET http://meetup.api/groups/meetjs.wroclaw/meetup/september
 
 ``` js
 {
+    type: 'Meeting',
     meetupId: 'september',
     meetupGroup: 'meetjs.wroclaw',
     description: 'Wrześniowy meet.js',

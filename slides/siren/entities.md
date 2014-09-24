@@ -5,7 +5,7 @@
 ``` js
 {
     entities: [{
-        class: [ 'member' ],
+        class: [ 'Person' ],
         rel: [ 'http://meetup.api/rels/attendee' ],
         properties: {
             personId: 't.pluskiewicz',

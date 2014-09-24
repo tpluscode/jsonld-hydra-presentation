@@ -4,7 +4,7 @@
 
 ``` js
 {
-    class: [ 'meetup' ],
+    class: [ 'Meetup' ],
     properties: {
         meetupId: 'september',
         meetupGroup: 'meetjs.wroclaw',
