@@ -1,2 +1,2 @@
 # JSON-LD and Hydra
-# Hypermedia API alternatively
+## Hypermedia API alternatively
