@@ -5,14 +5,14 @@
 ```
 {
     _links: {
-        self: { href: 'http://meetup.api/groups/meetjs.wroclaw/meetup/september' },
+        self: { href: '/groups/meetjs.wroclaw/meetup/september' },
         curies: [{
             name: 'rel',
             href: 'http://meetup.api/docs/rels/{rel}',
             templated: true
         }],
-        'rel:previous': {
-            href: 'http://meetup.api/groups/meetjs.wroclaw/meetup/august'
+        previous: {
+            href: '/groups/meetjs.wroclaw/meetup/august'
         }
     },
     meetupId: 'september',

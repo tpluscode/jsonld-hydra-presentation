@@ -14,7 +14,7 @@
         links:[
             {
                 rel: [ 'self' ],
-                href: 'http://meetup.api/../september/attendees'
+                href: '/groups/meetjs.wroclaw/meetup/september/attendees'
             }
         ]
     }]

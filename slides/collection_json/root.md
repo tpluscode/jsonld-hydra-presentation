@@ -6,10 +6,10 @@
 {
     collection: {
         version: '1.0',
-        href: 'http://meetup.api/groups/meetjs.wroclaw/meetup/september',
+        href: '/groups/meetjs.wroclaw/meetup/september',
         items: [
             {
-                href: 'http://meetup.api/groups/meetjs.wroclaw/meetup/september',
+                href: '/groups/meetjs.wroclaw/meetup/september',
                 data: [
                     { name: 'description', value: 'Wrześniowy meet.js' }
                 ],

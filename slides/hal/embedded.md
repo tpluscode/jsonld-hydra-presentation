@@ -5,15 +5,15 @@
 ```
 {
     _links: {
-        self: { href: 'http://meetup.api/../september/attendees' },
-        next: { href: 'http://meetup.api/../september/attendees?page=2' }
+        self: { href: '/groups/meetjs.wroclaw/meetup/september/attendees' },
+        next: { href: '/groups/meetjs.wroclaw/meetup/september/attendees?page=2' }
     },
     size: 1,
     _embedded: {
         attendees: [
             {
                 _links: {
-                    self: { href: 'http://meetup.api/users/t.pluskiewicz' }
+                    self: { href: '/users/t.pluskiewicz' }
                 },
                 fullName: 'Tomasz Pluskiewicz'
             }

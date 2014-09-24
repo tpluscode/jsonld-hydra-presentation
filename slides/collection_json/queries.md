@@ -6,10 +6,12 @@
 {
     queries: [
         {
-            href: 'http://meetup.api/',
+            href: '/groups/meetjs.wroclaw/meetup/september',
             rel: 'search attendants',
             prompt: 'enter name or login',
-            data: [ { } ]
+            data: [
+                {"name" : "user", "value" : ""}
+            ]
         }
     ]
 }

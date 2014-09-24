@@ -7,15 +7,12 @@
     class: [ 'Meetup' ],
     properties: {
         meetupId: 'september',
-        meetupGroup: 'meetjs.wroclaw',
-        description: 'Wrześniowy meet.js',
-        previous: 'august'
+        description: 'Wrześniowy meet.js'
     },
     links: [
-        {
-            rel: [ 'self' ],
-            href: 'http://meetup.api/groups/meetjs.wroclaw/meetup/september'
-        }
+        { rel: [ 'self' ], href: '/groups/meetjs.wroclaw/meetup/september' },
+        { rel: [ 'previous' ], href: '/groups/meetjs.wroclaw/meetup/august' },
+        { rel: [ 'meetupGroup' ], href: '/groups/meetjs.wroclaw' }
     ]
 }
 ```
