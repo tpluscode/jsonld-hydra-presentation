@@ -39,6 +39,14 @@
         "json_ld/mug.md"
     ],
     [
+        "json_ld/title.md",
+        "formats/raw-data.md",
+        "json_ld/resource.md",
+        "json_ld/external_context.md",
+        "json_ld/embedded.md",
+        "json_ld/summary.md"
+    ],
+    [
         "more/more.md",
         "more/hfactor.md",
         "more/restdesc.md"

@@ -6,6 +6,7 @@
 2. Use HTTP URIs
 3. When someone looks up a URI, provide useful information
 4. Include links to other URIs
+5. Reuse known vocabulary
 
 note:
 
