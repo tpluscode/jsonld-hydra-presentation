@@ -7,6 +7,7 @@ very Semantic Web
 @prefix http: <http://www.w3.org/2011/http#>.
 @prefix dbpedia: <http://dbpedia.org/resource/>.
 @prefix dbpedia-owl: <http://dbpedia.org/ontology/>.
+
 {
   ?image :smallThumbnail ?thumbnail.
 }

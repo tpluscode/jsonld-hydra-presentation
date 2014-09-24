@@ -4,19 +4,20 @@
 
 ```
 {
-    _links: {
-        self: { href: '/groups/meetjs.wroclaw/meetup/september' },
-        curies: [{
-            name: 'rel',
-            href: 'http://meetup.api/docs/rels/{rel}',
-            templated: true
+    "_links": {
+        "self": { "href": '/groups/meetjs.wroclaw/meetup/september" },
+        "curies": [{
+            "name: "rel",
+            "href: "http://meetup.api/docs/rels/{rel}",
+            "templated": true
         }],
-        previous: {
-            href: '/groups/meetjs.wroclaw/meetup/august'
+        "previous": { "href": "/groups/meetjs.wroclaw/meetup/august" },
+        "attendees": {
+            "href": "/groups/meetjs.wroclaw/meetup/september/attendees"
         }
     },
-    meetupId: 'september',
-    description: 'Wrześniowy meet.js'
+    "meetupId": "september",
+    "description": "Wrześniowy meet.js"
 }
 ```
 

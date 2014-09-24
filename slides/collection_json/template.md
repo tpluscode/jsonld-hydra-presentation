@@ -3,12 +3,12 @@
 ### Template
 
 ``` js
-template: {
-    data: [
+"template": {
+    "data": [
         {
-            name: 'description',
-            value: 'New meetup',
-            prompt: 'Please enter description'
+            "name": "description",
+            "value": "New meetup",
+            "prompt": "Please enter description"
         }
     ]
 }

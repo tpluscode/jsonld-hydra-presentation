@@ -4,15 +4,15 @@
 
 ``` js
 {
-    actions: [
+    "actions": [
         {
-            name: 'register',
-            title: 'Register for meetup',
-            method: 'POST',
-            href: '/groups/meetjs.wroclaw/meetup/september/attendees',
-            type: 'application/x-www-form-urlencoded',
-            fields: [
-                { name: 'personId', type: 'text' }
+            "name": "register",
+            "title": "Register for meetup",
+            "method": "POST",
+            "href": "/groups/meetjs.wroclaw/meetup/september/attendees",
+            "type": "application/x-www-form-urlencoded",
+            "fields": [
+                { name": "personId", "type": "text"}
             ]
         }
     ]

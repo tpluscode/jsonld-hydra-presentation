@@ -4,12 +4,12 @@
 
 ``` js
 {
-    queries: [
+    "queries": [
         {
-            href: '/groups/meetjs.wroclaw/meetup/september',
-            rel: 'search attendants',
-            prompt: 'enter name or login',
-            data: [
+            "href": "/groups/meetjs.wroclaw/meetup/september",
+            "rel": "search attendants",
+            "prompt": "enter name or login",
+            "data": [
                 {"name" : "user", "value" : ""}
             ]
         }

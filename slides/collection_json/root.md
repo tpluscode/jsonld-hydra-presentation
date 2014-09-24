@@ -4,20 +4,20 @@
 
 ``` js
 {
-    collection: {
-        version: '1.0',
-        href: '/groups/meetjs.wroclaw/meetup/september',
-        items: [
+    "collection": {
+        "version": "1.0",
+        "href": "/groups/meetjs.wroclaw/meetup/september",
+        "items": [
             {
-                href: '/groups/meetjs.wroclaw/meetup/september',
-                data: [
-                    { name: 'description', value: 'Wrześniowy meet.js' }
+                "href": "/groups/meetjs.wroclaw/meetup/september",
+                "data": [
+                    { "name": "description", "value": "Wrześniowy meet.js" }
                 ],
-                links: [ ]
+                "links": [ ]
             }
         ],
-        template: { data: { } },
-        queries: [ ]
+        "template": { "data": { } },
+        "queries": [ ]
     }
 }
 ```

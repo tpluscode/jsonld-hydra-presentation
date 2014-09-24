@@ -4,17 +4,17 @@
 
 ``` js
 {
-    entities: [{
-        class: [ 'Person' ],
-        rel: [ 'http://meetup.api/rels/attendee' ],
-        properties: {
-            personId: 't.pluskiewicz',
-            fullName: 'Tomasz Pluskiewicz'
+    "entities": [{
+        "class": [ "Person" ],
+        "rel": [ "http://meetup.api/rels/attendee" ],
+        "properties": {
+            "personId": "t.pluskiewicz",
+            "fullName": "Tomasz Pluskiewicz"
         },
-        links:[
+        "links": [
             {
-                rel: [ 'self' ],
-                href: '/groups/meetjs.wroclaw/meetup/september/attendees'
+                "rel": [ "self" ],
+                "href": "/groups/meetjs.wroclaw/meetup/september/attendees"
             }
         ]
     }]

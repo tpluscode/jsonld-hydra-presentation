@@ -4,20 +4,18 @@
 
 ```
 {
-    _links: {
-        self: { href: '/groups/meetjs.wroclaw/meetup/september/attendees' },
-        next: { href: '/groups/meetjs.wroclaw/meetup/september/attendees?page=2' }
+    _links": {
+        "self": { "href": "/groups/meetjs.wroclaw/meetup/september/attendees" },
+        "next": { "href": "attendees?page=2" }
     },
-    size: 1,
-    _embedded: {
-        attendees: [
-            {
-                _links: {
-                    self: { href: '/users/t.pluskiewicz' }
-                },
-                fullName: 'Tomasz Pluskiewicz'
-            }
-        ]
+    "size": 1,
+    "_embedded": {
+        "attendees": [ {
+            "_links": {
+                "self": { "href": "/users/t.pluskiewicz" }
+            },
+            "fullName": "Tomasz Pluskiewicz"
+        } ]
     }
 }
 ```
