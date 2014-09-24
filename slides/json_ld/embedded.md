@@ -4,7 +4,7 @@
 
 ``` js
 {
-    "@context": "http://meetup.api/contexts/meetup.json",
+    "@context": "http://meetup.api/contexts/meetup.jsonld",
     "@id": "/meetjs.wroclaw/meetup/september",
     "attendees": [ "/users/t.pluskiewicz" ]
 }
@@ -12,7 +12,7 @@
 
 ``` js
 {
-    "@context": "http://meetup.api/contexts/meetup.json",
+    "@context": "http://meetup.api/contexts/meetup.jsonld",
     "@id": "/meetjs.wroclaw/meetup/september",
     "attendees": [
         {

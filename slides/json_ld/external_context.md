@@ -4,7 +4,7 @@
 
 ``` js
 {
-    "@context": "http://meetup.api/contexts/meetup.json",
+    "@context": "http://meetup.api/contexts/meetup.jsonld",
     "@type": "Event",
     "@id": "meetjs.wroclaw/meetup/september",
     "meetupGroup": "meetjs.wroclaw",
