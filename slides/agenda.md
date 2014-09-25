@@ -1,6 +1,6 @@
 ## Agenda
 
-1. What is hypermedia?
-1. Common formats
-1. JSON-LD
-1. Hydra
+1. [What is a hypermedia (API)?](#/3)
+1. [Common hypermedia formats](#/4)
+1. [JSON-LD](#/10)
+1. [Hydra](#/12)
