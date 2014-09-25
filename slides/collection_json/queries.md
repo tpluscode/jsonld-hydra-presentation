@@ -10,7 +10,7 @@
             "rel": "search attendants",
             "prompt": "enter name or login",
             "data": [
-                {"name" : "user", "value" : ""}
+                { "name" : "user", "value" : "" }
             ]
         }
     ]
