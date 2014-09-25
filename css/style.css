@@ -2,3 +2,8 @@
     color: gold;
     text-align: right
 }
+
+.reveal .fa {
+    font-family: 'FontAwesome';
+    font-style: normal;
+}

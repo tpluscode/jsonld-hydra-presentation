@@ -1,5 +1,7 @@
 [
     "index.md",
+    "author.html",
+    "agenda.md",
     [
         "hypermedia/api.md",
         "hypermedia/hypermedia-quotes.md",
@@ -66,5 +68,6 @@
         "links/formats.md",
         "links/json-ld.md",
         "links/hydra.md"
-    ]
+    ],
+    "end.md"
 ]
