@@ -1,6 +1,6 @@
 ## Hydra
 
-### Which links to follow?
+### Link properties
 
 ``` js
 {

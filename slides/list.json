@@ -49,7 +49,11 @@
     [
         "hydra/intro.html",
         "hydra/links.md",
-        "hydra/links2.md"
+        "hydra/links2.md",
+        "hydra/operations.md",
+        "hydra/classes.md",
+        "hydra/api-documentation-def.md",
+        "hydra/api-documentation.md"
     ],
     [
         "more/more.md",

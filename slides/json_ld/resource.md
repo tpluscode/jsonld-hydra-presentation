@@ -12,8 +12,8 @@
         "previous": { "@id": "meetup:previous", "@type": "@id" },
         "attendees": { "@type": "@id" }
     },
-    "@type": "Event",
     "@id": "meetjs.wroclaw/meetup/september",
+    "@type": "Event",
     "meetupGroup": "meetjs.wroclaw",
     "description": "Wrześniowy meet.js",
     "previous": "meetjs.wroclaw/meetup/august",

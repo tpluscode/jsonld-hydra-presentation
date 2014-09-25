@@ -5,8 +5,8 @@
 ``` js
 {
     "@context": "http://meetup.api/contexts/meetup.jsonld",
-    "@type": "Event",
     "@id": "meetjs.wroclaw/meetup/september",
+    "@type": "Event",
     "meetupGroup": "meetjs.wroclaw",
     "description": "Wrześniowy meet.js",
     "previous": "meetjs.wroclaw/meetup/august",
