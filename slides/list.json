@@ -48,7 +48,8 @@
     ],
     [
         "hydra/intro.html",
-        "hydra/features.md"
+        "hydra/links.md",
+        "hydra/links2.md"
     ],
     [
         "more/more.md",
