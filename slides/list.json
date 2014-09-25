@@ -47,6 +47,10 @@
         "json_ld/summary.md"
     ],
     [
+        "hydra/intro.html",
+        "hydra/features.md"
+    ],
+    [
         "more/more.md",
         "more/hfactor.md",
         "more/restdesc.md"
