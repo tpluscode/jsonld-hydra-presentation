@@ -44,7 +44,8 @@
         "json_ld/resource.md",
         "json_ld/external_context.md",
         "json_ld/embedded.md",
-        "json_ld/summary.md"
+        "json_ld/summary.md",
+        "json_ld/demo.md"
     ],
     [
         "hydra/intro.html",
@@ -53,7 +54,8 @@
         "hydra/operations.md",
         "hydra/classes.md",
         "hydra/api-documentation-def.md",
-        "hydra/api-documentation.md"
+        "hydra/api-documentation.md",
+        "hydra/demo.md"
     ],
     [
         "more/more.md",
