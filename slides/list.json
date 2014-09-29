@@ -46,8 +46,8 @@
         "json_ld/resource.md",
         "json_ld/external_context.md",
         "json_ld/embedded.md",
-        "json_ld/summary.md",
-        "json_ld/demo.md"
+        "json_ld/demo.md",
+        "json_ld/summary.md"
     ],
     [
         "hydra/intro.html",
