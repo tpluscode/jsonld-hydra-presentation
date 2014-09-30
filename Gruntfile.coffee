@@ -104,6 +104,7 @@ module.exports = (grunt) ->
                 command: [
                       'rm -rf dist',
                       'git clone https://github.com/tpluscode/jsonld-hydra-presentation.git dist',
+                      'cd dist',
                       'git checkout gh-pages'
                       'cd dist',
                       'rm -rf *',
