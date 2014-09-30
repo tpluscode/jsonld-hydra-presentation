@@ -96,12 +96,12 @@ module.exports = (grunt) ->
             pushGithubPages:
                 command: [
                   'chmod +x scripts/pushGhPages.sh',
-                  'scripts/pushGhPages.sh'
+                  'sh scripts/pushGhPages.sh'
                   ].join('&&')
             prepareGithubPages:
                 command: [
                   'chmod +x scripts/prepareGhPages.sh',
-                  'scripts/prepareGhPages.sh'
+                  'sh scripts/prepareGhPages.sh'
                 ].join('&&')
 
     # Load all grunt tasks.
