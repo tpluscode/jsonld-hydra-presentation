@@ -106,7 +106,6 @@ module.exports = (grunt) ->
                       'git clone https://github.com/tpluscode/jsonld-hydra-presentation.git dist',
                       'cd dist',
                       'git checkout gh-pages'
-                      'cd dist',
                       'rm -rf *',
                       'git config --global user.email "tpluscode@users.noreply.github.com"',
                       'git config --global user.name "tpluscode"',
