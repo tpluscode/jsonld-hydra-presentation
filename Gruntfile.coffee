@@ -94,26 +94,9 @@ module.exports = (grunt) ->
 
         shell:
             pushGithubPages:
-                command: [
-                      'cd dist',
-                      'git add -Af',
-                      'if [ -n "$(git status --porcelain)" ]; then
-                        git commit -am "pushing presentation built on travis (build number ${TRAVIS_BUILD_NUMBER})"
-                        git push https://${GH_OAUTH_TOKEN}@github.com/tpluscode/jsonld-hydra-presentation gh-pages  > /dev/null 2>&1
-                      fi',
-                    ].join('&&')
+                command: 'scripts/pushGhPages.sh'
             prepareGithubPages:
-                command: [
-                      'rm -rf dist',
-                      'git clone https://github.com/tpluscode/jsonld-hydra-presentation.git dist',
-                      'cd dist',
-                      'git checkout gh-pages'
-                      'rm -rf *',
-                      'git config --global user.email "tpluscode@users.noreply.github.com"',
-                      'git config --global user.name "tpluscode"',
-                      'cd ..'
-                    ].join('&&')
-
+                command: 'scripts/prepareGhPages.sh'
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
