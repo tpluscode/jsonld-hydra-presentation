@@ -69,7 +69,8 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**',
                         'img/**'
-                        'css/**'
+                        'css/**',
+                        'CNAME'
                     ]
                     dest: 'dist/'
                 },{
