@@ -1,7 +1,4 @@
 language: node_js
-env:
-  global:
-    - secure: "jMr67/RatKFI/Oh9F35uLt3k9gSUdpCgG9spK1DfeR5xLMcxoihqxlQ+zp2TfwVGtbTmnoezBTrVhN9rkwQDAL2PvMu2D6AHD+vB/ri/cDtjKyNC0+j926UkXQbOWM3bZbTijOs6nZkMVfbcZO8Ynl/xqd3h3+wsz+Ihj1uDCD0="
 install:
   - 'npm install'
   - 'bower install'
